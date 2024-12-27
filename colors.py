@@ -166,5 +166,3 @@ def cycle_image2(input_filename, output_filename, steps, fps, loop = None):
     else:
         # Yes this library will puke if you set loop=None when it's unexpected
         imageio.imwrite(output_filename, images, fps=fps)
-
-cycle_image2('kt.png', 'kt.gif', 20, 5, 0)
